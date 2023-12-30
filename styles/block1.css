@@ -1,4 +1,4 @@
-
+  
 #block1_section {
     height: 100vh;
     background-color: #37517e;
@@ -10,9 +10,10 @@
 
 .block1_container { 
     display: flex;
+    width: min(100%, 1400px); 
 }
 .block1_container > div {
-    margin: 50px;
+    margin: 30px;
 }
 .block1_container_text h1 {
     color: white;
@@ -31,8 +32,8 @@
     align-items: center;
 }
 .block1_container_img img {
-    width: 780px;
-    height: 646px;
+    width: 630px;
+    height: 530px;
 }
 .block1_href {
     display: flex;
