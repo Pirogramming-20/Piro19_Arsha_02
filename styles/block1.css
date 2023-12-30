@@ -1,3 +1,4 @@
+
 #block1_section {
     height: 100vh;
     background-color: #37517e;
@@ -29,9 +30,9 @@
     justify-content: center;
     align-items: center;
 }
-.block1_container_text img {
-    width: 636px;
-    height: 530px;
+.block1_container_img img {
+    width: 780px;
+    height: 646px;
 }
 .block1_href {
     display: flex;
