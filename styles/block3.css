@@ -1,0 +1,118 @@
+:root{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+section{
+    padding: 60px 0;
+}
+.block3-container-all {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: 35px;
+    margin-left: 35px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+.block3-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.block3-title::after, .block3-title::before{
+    box-sizing: border-box;
+}
+.block3-title h1::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.block3-title h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.block3-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.block3-row::before, .block3-row::after {
+    box-sizing: border-box;
+}
+.block3-container-high {
+    lex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    padding-left: 28px;
+    position: relative;
+}
+.block3-double-check{
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 20px;
+    color: #47b2e4;
+    line-height: 1;
+}
+.blocke-double-check:before{
+    content: "\eb79";
+}
+.block3-container-low{
+    padding-top: 1.5rem!important;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.block3-btn-learn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #47b2e4;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #47b2e4;
+}
