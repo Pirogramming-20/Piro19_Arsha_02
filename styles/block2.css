@@ -1,0 +1,21 @@
+#block2_section {
+    background-color: white;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1.4rem;
+    width: min(100%, 1400px); 
+    margin: auto;
+}
+#block2_section img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+}
+#block2_section img:hover {
+    filter: none;
+    transform: scale(1.1);
+}
