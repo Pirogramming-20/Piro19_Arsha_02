@@ -1,0 +1,111 @@
+#block4 {
+  background-color: #f3f5fa;
+  padding: 60px 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.block4-main {
+  display: flex;
+}
+
+/* block4-left*/
+/* ---------block4-left-------------*/
+/* ------------------block4-left-top--------------------*/
+.block4-left-top {
+  padding: 60px 100px 0 100px;
+}
+.block4-left-top-header {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+  margin: 0 0 8px;
+}
+
+.block4-left-top-header .block4-bold {
+  font-weight: bolder;
+}
+
+.block4-left-top div:last-of-type > p {
+  margin: 0 0 16px;
+  font-size: 15px;
+  color: #848484;
+}
+
+/* ------------------block4-left-bottom--------------------*/
+.block4-left-bottom {
+  padding: 0 100px 60px 100px;
+}
+
+.block4-left-bottom > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.block4-left-bottom > ul li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+  height: 65px;
+}
+.block4-left-bottom > ul li:nth-of-type(2),
+.block4-left-bottom > ul li:nth-of-type(3) {
+  margin-top: 16px;
+}
+
+.block4-bottom-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.block4-bottom-box-header {
+  padding: right-30px;
+}
+
+.block4-bottom-box-header > span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.block4-bottom-box-header span:last-of-type {
+  color: #343a40;
+}
+
+#block4-arrow-button > input {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  background-color: red;
+  width: 24px;
+  height: 24px;
+}
+
+#block4-arrow-button > div {
+}
+
+.block4-bottom-box-bottom {
+  display: none;
+  padding-top: 10px;
+  margin-bottom: 0;
+  color: #444444;
+}
+
+#block4-arrow-button:has(input:checked) ~ .block4-bottom-box-bottom {
+  display: inline;
+}
+
+/* block4-right*/
+.block4-right {
+  margin: 15px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.block4-right-container {
+  background-image: url(../images/why-us.png);
+  width: 500px;
+}
