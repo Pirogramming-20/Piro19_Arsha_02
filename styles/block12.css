@@ -97,18 +97,15 @@
   color: #fff;
 }
 
-#block12-icon-location::before {
-  content: "\f3e8";
+#block12-icon-location > img {
   width: 20px;
   height: 20px;
 }
-#block12-icon-email::before {
-  content: "\f32f";
+#block12-icon-email > img {
   width: 20px;
   height: 20px;
 }
-#block12-icon-call::before {
-  content: "\f4e7";
+#block12-icon-call > img {
   width: 20px;
   height: 20px;
 }
@@ -167,23 +164,27 @@
 
 .block12-body-right label {
   padding: 0 0 8px;
+  height: 32 px;
 }
 
 .block12-input-section {
   display: flex;
   flex-direction: column;
   margin: 0 0 20px;
+  gap: 6px;
 }
 
-.block12-input-section:nth-of-type(1) {
+.block12-yourname {
   padding: 0 12px 8px 0px;
+  flex: 1;
 }
-.block12-input-section:nth-of-type(2) {
+.block12-youremail {
   padding: 0 0 8px 12px;
+  flex: 1;
 }
 
-.block12-input-section:nth-of-type(3),
-.block12-input-section:nth-of-type(4) {
+.block-yoursubject,
+.block12-yourMessage {
   padding: 0 0 8px;
 }
 
@@ -196,6 +197,10 @@
   height: 44px;
   border-radius: 4px;
   border: 1px solid lightgray;
+}
+
+.block12-yourMeassage > input {
+  padding: 10px 12px;
 }
 
 .block12-yourMessage input {
@@ -225,6 +230,9 @@
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  height: 48px;
+  width: 174.7px;
+  font-size: 15px;
 }
 .block12-sendbutton:hover {
   background: #209dd8;
