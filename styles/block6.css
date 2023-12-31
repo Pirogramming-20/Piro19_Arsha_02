@@ -6,20 +6,20 @@
   align-items: center;
   background-color: #e8edf5;
 }
-#block6-top {
+.block6-top {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 40px;
   color: #37517e;
 }
-#block6-middle {
+.block6-middle {
   text-align: center;
   margin-bottom: 40px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #444444;
 }
-#block6-bottom {
+.block6-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
