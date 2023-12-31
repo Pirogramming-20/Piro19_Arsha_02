@@ -24,7 +24,7 @@
 }
 
 .block13-main {
-  margin-bottom: 16px;
+  margin-bottom: 15px;
   color: #444444;
 }
 
@@ -82,5 +82,14 @@
 @media screen and (max-width: 1399px) {
   .block13-container-center {
     width: max(570px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #block13 {
+    width: 100%;
+  }
+  .block13-container {
+    width: 100%;
   }
 }

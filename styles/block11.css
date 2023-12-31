@@ -7,12 +7,17 @@
 }
 /*-------------block12-header--------------*/
 
-.block11-header {
-  padding-bottom: 30px !important   ;
+.block11-content {
+  padding: 0 12px;
   margin: auto;
 }
 
-.block11-header p {
+.block11-header {
+  padding: 0 0 30px;
+  margin: auto;
+}
+
+.block11-title p {
   text-align: center;
 }
 
@@ -55,12 +60,9 @@
 }
 
 /*-------------block12-body--------------*/
-.block11-body {
-  padding: 0 100px;
-}
 
 .block11-body {
-  padding: 0 110px 60px;
+  padding: 0 100px 16px;
 }
 
 .block11-body > ul {
@@ -218,4 +220,14 @@ block11-body-box-header {
 .block11-white-box5:has(input:checked) + li {
   height: 65px;
   color: #37517e;
+}
+
+@media screen and (max-width: 1199px) {
+  .block11-header {
+    padding: 0 0px 30px;
+  }
+
+  .block11-body {
+    padding: 0px 0px 16px;
+  }
 }
