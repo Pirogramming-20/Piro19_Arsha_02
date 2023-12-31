@@ -68,11 +68,6 @@
   margin-top: 16px;
 }
 
-.block4-bottom-box {
-  display: flex;
-  flex-direction: column;
-}
-
 .block4-bottom-box-header {
   padding: right-30px;
   height: 25px;
@@ -124,6 +119,7 @@
 }
 
 .block4-white-box1:has(input:checked) ~ li {
+  height: 65px;
 }
 
 .block4-white-box2:has(input:checked) {
@@ -176,6 +172,8 @@
 .block4-right-container {
   width: min(100%, 680px);
   height: min(448.3px, 100%);
+  display: flex;
+  align-items: stretch;
 }
 
 .block4-right-container > img {
