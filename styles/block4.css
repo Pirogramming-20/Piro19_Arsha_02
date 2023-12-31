@@ -123,12 +123,23 @@
   height: 123px;
 }
 
+.block4-white-box1:has(input:checked) ~ li {
+}
+
 .block4-white-box2:has(input:checked) {
   height: 123px;
 }
 
+.block4-white-box2:has(input:checked) ~ li {
+  height: 65px;
+}
+
 .block4-white-box3:has(input:checked) {
   height: 123px;
+}
+
+.block4-white-box3:has(input:checked) ~ li {
+  height: 65px;
 }
 
 #block4-more-info {
