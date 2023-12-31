@@ -8,6 +8,11 @@
     width: min(100%, 1400px); 
     margin: auto;
 }
+#block2_section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #block2_section img {
     max-width: 45%;
     transition: all 0.4s ease-in-out;
