@@ -181,6 +181,11 @@
   padding: 0 0 8px;
 }
 
+.block12-input-box {
+  padding: 6px 12px;
+  width: 100%;
+}
+
 .block12-input-section input:nth-of-type(1) {
   height: 44px;
   border-radius: 4px;
@@ -193,6 +198,7 @@
 
 .block12-inputrow-1 {
   display: flex;
+  width: 100%;
 }
 
 .block12-inputrow-1 .block12-inputbox {

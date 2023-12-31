@@ -6,13 +6,14 @@
 }
 .block13-container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 0 12px;
+  justify-content: center;
   text-align: center;
-
-  width: 660px;
 }
+
+.block13-container-center {
+  width: max(660px);
+}
+
 .block13-top {
   font-size: 24px;
   margin-bottom: 20px;
@@ -21,13 +22,25 @@
   color: #37517e;
 }
 
+.block13-main {
+  margin-bottom: 16px;
+  color: #444444;
+}
+
 /*block13-bottom*/
+.block13-bottom-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+  position: relative;
+}
 
 .block13-bottom-box {
-  margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
-  position: relative;
+  flex: 1;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
   text-align: left;
@@ -36,8 +49,31 @@
 #block13-input {
   padding: 4px 8px;
   border: none;
+  display: flex;
+  align-items: stretch;
+
+  width: calc(100% - 97px);
 }
 
-#block13-input > div {
+#block13-input:focus {
+  border: 2px solid black;
+}
+
+.block13-bottom-section > button {
+  background: #47b2e4;
+  border: 0;
+  padding: 0 20px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  width: 109.81px;
+  height: 100%;
+  text-align: center;
+  right: 0;
+
   position: absolute;
+}
+
+.block12-sendbutton:hover {
+  background: #209dd8;
 }
