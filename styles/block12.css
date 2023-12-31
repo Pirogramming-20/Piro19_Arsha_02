@@ -247,6 +247,6 @@
 @media screen and (max-width: 767px) {
   .block12-body-left,
   .block12-body-right {
-    width: 516px;
+    width: 100%;
   }
 }

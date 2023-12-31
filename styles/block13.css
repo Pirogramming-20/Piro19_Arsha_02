@@ -12,6 +12,7 @@
 
 .block13-container-center {
   width: max(660px);
+  padding: 0 12px;
 }
 
 .block13-top {
@@ -76,4 +77,10 @@
 
 .block12-sendbutton:hover {
   background: #209dd8;
+}
+
+@media screen and (max-width: 1399px) {
+  .block13-container-center {
+    width: max(570px);
+  }
 }
