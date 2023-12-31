@@ -1,0 +1,43 @@
+#block13 {
+  padding: 50px 0;
+  background: #f3f5fa;
+  display: flex;
+  justify-content: center;
+}
+.block13-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 12px;
+  text-align: center;
+
+  width: 660px;
+}
+.block13-top {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+/*block13-bottom*/
+
+.block13-bottom-box {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#block13-input {
+  padding: 4px 8px;
+  border: none;
+}
+
+#block13-input > div {
+  position: absolute;
+}
