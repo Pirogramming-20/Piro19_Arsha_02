@@ -120,10 +120,6 @@ block11-body-box-header {
   justify-content: flex-start;
 }
 
-.block11-body-box-button > div > i {
-  content: "\eb0d";
-}
-
 .block11-body-box-button > div > span {
   color: #47b2e4;
   font-weight: 600;
@@ -175,7 +171,7 @@ block11-body-box-header {
   width: 100%;
 }
 
-#block11-body-box-header:has(input:checked) > div span:last-of-type,
+#block11-body-box-header1:has(input:checked) > div span:last-of-type,
 #block11-body-box-header2:has(input:checked) > div span:last-of-type,
 #block11-body-box-header3:has(input:checked) > div span:last-of-type,
 #block11-body-box-header4:has(input:checked) > div span:last-of-type,
@@ -184,13 +180,42 @@ block11-body-box-header {
 }
 
 .block11-white-box1:has(input:checked) {
-  height: 123px;
+  height: 110px;
 }
 
 .block11-white-box2:has(input:checked) {
-  height: 123px;
+  height: 110px;
 }
 
 .block11-white-box3:has(input:checked) {
   height: 123px;
+}
+
+.block11-white-box4:has(input:checked) {
+  height: 110px;
+}
+
+.block11-white-box5:has(input:checked) {
+  height: 110px;
+}
+
+.block11-white-box1:has(input:checked) + li {
+  height: 65px;
+  color: #37517e;
+}
+.block11-white-box2:has(input:checked) + li {
+  height: 65px;
+  color: #37517e;
+}
+.block11-white-box3:has(input:checked) + li {
+  height: 65px;
+  color: #37517e;
+}
+.block11-white-box4:has(input:checked) + li {
+  height: 65px;
+  color: #37517e;
+}
+.block11-white-box5:has(input:checked) + li {
+  height: 65px;
+  color: #37517e;
 }
