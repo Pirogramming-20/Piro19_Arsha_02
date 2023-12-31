@@ -96,6 +96,14 @@
   margin-top: 15px;
 }
 
+.block11-question-icon {
+  fill: #47b2e4;
+}
+.block11-question-icon > svg {
+  width: 24px;
+  height: 25px;
+}
+
 block11-body-box-header {
   padding-right: 30px;
   height: 25px;
@@ -106,23 +114,14 @@ block11-body-box-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 30px;
-
   position: relative;
-}
-
-.block11-body-box-button:before {
-  content: "\eb0d";
-  position: absolute;
-  left: 0px;
-  font-size: 24px;
-  color: #47b2e4;
 }
 
 .block11-body-box-button > div {
   display: flex;
-  flex-direction: column;
+  gap: 6px;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .block11-body-box-button > div > span {
@@ -139,15 +138,8 @@ block11-body-box-header {
 }
 
 .block11-body-box-button > aside {
-  position: relative;
   width: 24px;
   height: 24px;
-}
-
-.block11-body-box-button > aside::after {
-  position: absolute;
-  content: "\ea57";
-  color: #37517e;
 }
 
 .block11-body-box-bottom {
@@ -190,11 +182,11 @@ block11-body-box-header {
   color: #73c5eb;
 }
 
-#block11-body-box-header1:has(input:checked) > aside::after,
-#block11-body-box-header2:has(input:checked) > aside::after,
-#block11-body-box-header3:has(input:checked) > aside::after,
-#block11-body-box-header4:has(input:checked) > aside::after,
-#block11-body-box-header5:has(input:checked) > aside::after {
+#block11-body-box-header1:has(input:checked) > aside,
+#block11-body-box-header2:has(input:checked) > aside,
+#block11-body-box-header3:has(input:checked) > aside,
+#block11-body-box-header4:has(input:checked) > aside,
+#block11-body-box-header5:has(input:checked) > aside {
   transform: rotate(180deg);
 }
 
