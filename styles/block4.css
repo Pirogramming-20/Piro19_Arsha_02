@@ -123,7 +123,7 @@
 }
 
 .block4-white-box2:has(input:checked) {
-  height: 123px;
+  height: 140px;
 }
 
 .block4-white-box2:has(input:checked) ~ li {
@@ -131,7 +131,7 @@
 }
 
 .block4-white-box3:has(input:checked) {
-  height: 123px;
+  height: 150px;
 }
 
 .block4-white-box3:has(input:checked) ~ li {
