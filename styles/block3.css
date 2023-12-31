@@ -54,6 +54,7 @@
 .block3-check-list{
     list-style: none;
     padding: 0;
+    color: #444444;
 }
 .block3-double-check{
     vertical-align: text-bottom;
@@ -61,7 +62,6 @@
 #block3-list2, #block3-list3{
     margin-top: 10px;
 }
-
 .block3-double-check{
     width: 20px;
     height: auto;
@@ -94,3 +94,18 @@
     background-color: #47b2e4;
     color: white !important;
 }
+
+@media (max-width: 991px) {
+    .block3-container {
+        flex-direction: column;
+    }
+    .block3-container-left, .block3-container-right {
+        width: 100%;
+    }
+    .block3-container-left{
+        margin-bottom: 16px;
+    }
+    .block3-container-right{
+        padding-top: 24px;
+    }
+  }
