@@ -97,21 +97,41 @@
 }
 
 .block4-bottom-box-button > aside {
-  background-color: red;
   width: 24px;
   height: 24px;
+
+  position: relative;
+}
+
+.block4-bottom-box-button > aside::after {
+  position: absolute;
+  content: "\ea57";
+  color: #343a40;
+  right: 7px;
+  top: 4px;
 }
 
 #block4-bottom-box-header1:has(input:checked) > div span:last-of-type {
   color: #73c5eb;
+}
+#block4-bottom-box-header1:has(input:checked) > aside::before {
+  transform: rotate(180deg);
 }
 
 #block4-bottom-box-header2:has(input:checked) > div span:last-of-type {
   color: #73c5eb;
 }
 
+#block4-bottom-box-header2:has(input:checked) > aside::before {
+  transform: rotate(180deg);
+}
+
 #block4-bottom-box-header3:has(input:checked) > div span:last-of-type {
   color: #73c5eb;
+}
+
+#block4-bottom-box-header3:has(input:checked) > aside::before {
+  transform: rotate(180deg);
 }
 
 .block4-white-box1:has(input:checked) {

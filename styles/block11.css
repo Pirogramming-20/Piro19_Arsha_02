@@ -15,6 +15,7 @@
 .block11-header {
   padding: 0 0 30px;
   margin: auto;
+  text-align: center;
 }
 
 .block11-title p {
@@ -22,7 +23,7 @@
 }
 
 .block11-content {
-  width: min(100%, 1296px);
+  width: min(100%, 1320px);
 }
 
 .block11-title {
