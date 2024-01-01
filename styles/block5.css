@@ -6,6 +6,11 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 992px) {
+  #block5 {
+    flex-direction: column;
+  }
+}
 #block5-left > img {
   width: 456px;
   height: 280px;
