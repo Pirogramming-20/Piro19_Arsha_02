@@ -200,7 +200,8 @@
 }
 
 @media screen and (max-width: 991px) {
-  .block4-right {
+  .block4-right,
+  .block4-right-container {
     width: 100%;
     height: 400px;
   }
@@ -224,5 +225,12 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: stretch;
+  }
+}
+
+/*white box 반응형 작업*/
+@media screen and (min-width: 724px) {
+  .block4-white-box1:has(input:checked) {
+    height: 100px;
   }
 }
