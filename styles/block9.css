@@ -12,7 +12,10 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
+
+
 .block9-teambox-teamone {
   display: flex;
   width: 45%;
@@ -32,7 +35,7 @@
 .block9-teambox-teamone-image {
   width: 400px;
   display: flex;
-  margin-left: 40px;
+  margin: 0 0 0 40px;
   justify-content: flex-start;
   align-items: center;
 }
