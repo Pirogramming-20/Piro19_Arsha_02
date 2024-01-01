@@ -30,7 +30,7 @@
   transform: translateY(-15px);
 }
 .block9-teambox-teamone-image {
-  width: 400px;
+  width: 300px;
   display: flex;
   margin-left: 40px;
   justify-content: flex-start;
@@ -79,4 +79,7 @@ block9-teambox-teamone-inf {
   width: 32px;
   height: 32px;
   background: #eff2f8;
+}
+.block9-teambox-teamone-inf-4 a:hover .fa-brands fa-twitter {
+  color: red;
 }
