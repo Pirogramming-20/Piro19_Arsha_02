@@ -1,12 +1,11 @@
 #block2_section {
-    background-color: white;
     height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0 1.4rem;
-    width: min(100%, 1400px); 
     margin: auto;
+    background-color: #f3f5fa;
 }
 #block2_section div {
     display: flex;

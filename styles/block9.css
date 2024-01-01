@@ -1,75 +1,60 @@
 #block9 {
   display: flex;
-  padding: 40px 75px 40px 75px;
+  padding: 60px 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e8edf5;
+  background-color: #f3f5fa;
 }
+
 #block9-teambox {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
 }
-.block9-teambox-teamone {
-  display: flex;
-  width: 45%;
-  padding: 25px 0;
-  background-color: white;
-  border-radius: 7px;
-  transition: 0.5s;
+
+.block9-container {
+  padding: 0 12px;
+  margin: auto;
+  width: min(1400px, 100%);
 }
-@media screen and (max-width: 992px) {
-  .block9-teambox-teamone {
-    flex-basis: 98%;
-  }
-}
-.block9-teambox-teamone:hover {
-  transform: translateY(-15px);
-}
-.block9-teambox-teamone-image {
-  width: 400px;
-  display: flex;
-  margin-left: 40px;
-  justify-content: flex-start;
-  align-items: center;
-}
-.block9-teambox-teamone-image > img {
-  border-radius: 50%;
-  width: 60%;
-}
-block9-teambox-teamone-inf {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.block9-teambox-teamone-inf-1 i,
-.block9-teambox-teamone-inf-2 i,
-.block9-teambox-teamone-inf-3 i,
-.block9-teambox-teamone-inf-4 i {
-  color: rgb(55, 81, 126);
-}
-.block9-teambox-teamone-inf-1 {
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
+
+.block9-top {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
   color: #37517e;
+
+  text-align: center;
 }
-.block9-teambox-teamone-inf-2,
-.block9-teambox-teamone-inf-3 {
-  font-size: 15px;
-  padding-bottom: 10px;
-  font-weight: 500;
-  color: #444444;
+
+.block9-top::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
 }
-.block9-teambox-teamone-inf-4 {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+
+.block9-top::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
 }
+
 .block9-teambox-teamone-inf-4 > a {
   display: flex;
   align-items: center;
@@ -80,3 +65,129 @@ block9-teambox-teamone-inf {
   height: 32px;
   background: #eff2f8;
 }
+.block9-middle {
+  text-align: center;
+  color: #444444;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.block9-teambox-teamone {
+  display: flex;
+  padding: 30px;
+  background-color: white;
+  border-radius: 7px;
+  transition: 0.5s;
+  flex: 1;
+  min-width: 40%;
+  height: 233.83px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 992px) {
+  .block9-teambox-teamone {
+    flex-basis: 98%;
+  }
+}
+
+.block9-teambox-teamone:hover {
+  transform: translateY(-15px);
+}
+.block9-teambox-teamone-image {
+  width: 173.83px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.block9-teambox-teamone-image > img {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.block9-teambox-teamone-inf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.block9-teambox-teamone-inf-2 {
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.block9-teambox-teamone-inf-2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #cbd6e9;
+  bottom: 0px;
+}
+
+.block9-teambox-teamone-inf-3 {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.block9-teambox-teamone-inf-2,
+.block9-teambox-teamone-inf-3 {
+  line-height: 1.5;
+}
+
+.block9-teambox-teamone-inf-1 i,
+.block9-teambox-teamone-inf-2 i,
+.block9-teambox-teamone-inf-3 i,
+.block9-teambox-teamone-inf-4 i {
+  color: rgb(55, 81, 126);
+}
+
+.block9-teambox-teamone-inf-4 a:hover {
+  background-color: #47b2e4;
+
+}
+.block9-teambox-teamone-inf-4 a:hover i{
+  color: white;
+  
+}
+
+.block9-teambox-teamone-inf-1 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  color: #37517e;
+}
+.block9-teambox-teamone-inf-2,
+.block9-teambox-teamone-inf-3 {
+  font-weight: 500;
+  color: #444444;
+}
+.block9-teambox-teamone-inf-4 {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.block9-teambox-teamone-inf-4 > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #eff2f8;
+  transition: ease-in-out 0.3s;
+}
+.block9-teambox-teamone-inf-4 i{
+  transition: ease-in-out 0.3s;
+}
+.block9-teambox-teamone-inf-4 a:hover,
+.block9-teambox-teamone-inf-4 a:hover i {
+  color: white;
+  background-color: #73c5eb;
+}
+

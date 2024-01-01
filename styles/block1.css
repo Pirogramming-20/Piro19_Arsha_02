@@ -1,3 +1,4 @@
+
 #block1_section {
     height: 80vh;
     background-color: #37517e;
@@ -6,7 +7,6 @@
     align-items: center; 
     position: relative;
 }
-
 .block1_container { 
     display: flex;
     width: min(100%, 1400px); 
@@ -23,7 +23,6 @@
 }
 .block1_container_text h2 {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: bold;
     font-size: 24px;
 }
 .block1_container_text > div{
