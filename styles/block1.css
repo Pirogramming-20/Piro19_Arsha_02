@@ -36,6 +36,7 @@
 }
 .block1_href {
     display: flex;
+    color: white;
 }
 .block1_href a:nth-child(1) {
     font-weight: 500;
