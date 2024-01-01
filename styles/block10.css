@@ -10,15 +10,12 @@ h4 {
   margin: 0;
 }
 #block10_section {
-
-  height: 80vh;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   padding: 60px 0;
-
 }
 .block10_container {
   text-align: center;
