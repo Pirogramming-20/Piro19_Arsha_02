@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 120px 0px;
 }
 .block7_container {
     display: flex;
@@ -13,6 +14,8 @@
     align-items: center;
     color: white;
     max-width: 1400px;
+    padding: 0 12px;
+    margin: 0 36px;
 }
 .block7_row1 {
     padding: 0 16px;
@@ -22,6 +25,11 @@
 .block7_row1 h3 {
     font-size: 28px;
     font-weight: bold;
+    margin-bottom: 8px;
+}
+.block7_row1 p {
+    margin-bottom: 16px;
+    line-height: 1.5;
 }
 .block7_row2 {
     padding-left: 0 12px;
@@ -45,4 +53,16 @@
     background-color: #47b2e4;
     border: none;
     transition: 0.8s;
+}
+
+@media screen and (max-width: 991px) {
+    .block7_container {
+      display: flex;
+      flex-direction: column;
+    }
+}
+@media (max-width: 991px) {
+    .block7_row1 h3, .block7_row1 p{
+        text-align: center;
+    }
 }
