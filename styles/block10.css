@@ -10,15 +10,12 @@ h4 {
   margin: 0;
 }
 #block10_section {
-
-  height: 80vh;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   padding: 60px 0;
-
 }
 .block10_container {
   text-align: center;
@@ -58,6 +55,13 @@ h4 {
   display: flex;
   padding-top: 40px;
   justify-content: space-between;
+}
+@media screen and (max-width: 991px) {
+  .block10_container_pricing {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .block10_pricing h3,
 .block10_pricing h4 {
