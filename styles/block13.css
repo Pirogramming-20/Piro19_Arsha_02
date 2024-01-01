@@ -1,0 +1,95 @@
+#block13 {
+  padding: 50px 0;
+  background: #f3f5fa;
+  display: flex;
+  justify-content: center;
+}
+.block13-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.block13-container-center {
+  width: max(660px);
+  padding: 0 12px;
+}
+
+.block13-top {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+.block13-main {
+  margin-bottom: 15px;
+  color: #444444;
+}
+
+/*block13-bottom*/
+.block13-bottom-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+  position: relative;
+}
+
+.block13-bottom-box {
+  background: #fff;
+  padding: 6px 10px;
+  flex: 1;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#block13-input {
+  padding: 4px 8px;
+  border: none;
+  display: flex;
+  align-items: stretch;
+
+  width: calc(100% - 97px);
+}
+
+#block13-input:focus {
+  border: 2px solid black;
+}
+
+.block13-bottom-section > button {
+  background: #47b2e4;
+  border: 0;
+  padding: 0 20px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  width: 109.81px;
+  height: 100%;
+  text-align: center;
+  right: 0;
+
+  position: absolute;
+}
+
+.block12-sendbutton:hover {
+  background: #209dd8;
+}
+
+@media screen and (max-width: 1399px) {
+  .block13-container-center {
+    width: max(570px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #block13 {
+    width: 100%;
+  }
+  .block13-container {
+    width: 100%;
+  }
+}

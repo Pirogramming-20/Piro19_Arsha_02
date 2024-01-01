@@ -1,0 +1,265 @@
+#block12 {
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.2;
+}
+
+/*-------------block12-header--------------*/
+.block12-header {
+  padding-bottom: 30px !important   ;
+  margin: auto;
+}
+
+.block12-header p {
+  text-align: center;
+  color: #444444;
+  line-height: 1.5;
+}
+
+.block12-content {
+  width: min(100%, 1296px);
+}
+
+.block12-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+.block12-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.block12-title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+/*-------------block12-body--------------*/
+.block12-body {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+/*--------------------block12-body-left---------------------*/
+.block12-body-left {
+  padding: 30px;
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: min(100%, 526px);
+}
+
+.block12-contact-icon {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  position: absolute;
+  border-radius: 50%;
+  color: #47b2e4;
+  background: #e7f5fb;
+  transition: 0.3s;
+
+  flex-wrap: wrap;
+}
+.block12-contact-icon:hover {
+  background: #47b2e4;
+  color: #fff;
+}
+
+#block12-icon-location > img {
+  width: 20px;
+  height: 20px;
+}
+#block12-icon-email > img {
+  width: 20px;
+  height: 20px;
+}
+#block12-icon-call > img {
+  width: 20px;
+  height: 20px;
+}
+
+.block12-contact-bold {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
+}
+
+.block12-contact-bold + p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba;
+}
+
+.block12-map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: green;
+}
+
+.block12-map > div {
+  position: absolute;
+  padding: 5px 12px;
+  left: 5px;
+  top: 5px;
+  color: #1a73e8;
+  font-size: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  width: 93.95px;
+  height: 26.67px;
+}
+
+/*--------------------block12-body-right--------------------*/
+.block12-body-right {
+  padding: 30px;
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  color: #444444;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  flex-direction: column;
+
+  width: min(100%, 746px);
+}
+
+.block12-body-right label {
+  padding: 0 0 8px;
+  height: 32 px;
+}
+
+.block12-input-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 20px;
+  gap: 6px;
+}
+
+.block12-yourname {
+  padding: 0 12px 8px 0px;
+  flex: 1;
+}
+.block12-youremail {
+  padding: 0 0 8px 12px;
+  flex: 1;
+}
+
+.block-yoursubject,
+.block12-yourMessage {
+  padding: 0 0 8px;
+}
+
+.block12-input-box {
+  padding: 6px 12px;
+  width: 100%;
+}
+
+.block12-input-section input:nth-of-type(1) {
+  height: 44px;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+
+.block12-yourMeassage > input {
+  padding: 10px 12px;
+}
+
+.block12-yourMessage input {
+  height: 232px !important;
+}
+
+.block12-inputrow-1 {
+  display: flex;
+  width: 100%;
+}
+
+.block12-inputrow-1 .block12-inputbox {
+  padding: 10px 12px;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.block12-button {
+  text-align: center;
+}
+
+.block12-sendbutton {
+  background: #47b2e4;
+  border: 0;
+  padding: 12px 34px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  height: 48px;
+  width: 174.7px;
+  font-size: 15px;
+}
+.block12-sendbutton:hover {
+  background: #209dd8;
+}
+
+@media screen and (max-width: 991px) {
+  .block12-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .block12-body-left,
+  .block12-body-right {
+    width: 696px;
+  }
+
+  .block12-map {
+    width: 100%;
+    height: 367px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block12-body-left,
+  .block12-body-right {
+    width: 100%;
+  }
+}
