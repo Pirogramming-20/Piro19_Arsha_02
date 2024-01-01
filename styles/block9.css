@@ -55,6 +55,16 @@
   left: calc(50% - 60px);
 }
 
+.block9-teambox-teamone-inf-4 > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #eff2f8;
+}
 .block9-middle {
   text-align: center;
   color: #444444;
@@ -133,6 +143,16 @@
 .block9-teambox-teamone-inf-4 i {
   color: rgb(55, 81, 126);
 }
+
+.block9-teambox-teamone-inf-4 a:hover {
+  background-color: #47b2e4;
+
+}
+.block9-teambox-teamone-inf-4 a:hover i{
+  color: white;
+  
+}
+
 .block9-teambox-teamone-inf-1 {
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -150,13 +170,4 @@
   align-items: center;
   justify-content: flex-start;
 }
-.block9-teambox-teamone-inf-4 > a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 5px;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  background: #eff2f8;
-}
+
