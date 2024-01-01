@@ -56,6 +56,13 @@ h4 {
   padding-top: 40px;
   justify-content: space-between;
 }
+@media screen and (max-width: 991px) {
+  .block10_container_pricing {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .block10_pricing h3,
 .block10_pricing h4 {
   text-align: left;
