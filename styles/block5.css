@@ -6,8 +6,10 @@
   justify-content: center;
   align-items: center;
 }
-#block5-left {
-  display: flex;
+@media screen and (max-width: 992px) {
+  #block5 {
+    flex-direction: column;
+  }
 }
 #block5-left > img {
   width: 456px;
