@@ -12,12 +12,30 @@
   align-items: center;
   gap: 20px;
 }
-#block8-nav > div {
-  background: #47b2e4;
-  color: #fff;
+.block8-nav-1,
+.block8-nav-2,
+.block8-nav-3,
+.block8-nav-4 {
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
   padding: 8px 20px;
+}
+.block8-nav-1 {
+  background: #47b2e4;
+  color: #fff;
+}
+.block8-nav-2,
+.block8-nav-3,
+.block8-nav-4 {
+  background: #fff;
+  color: black;
+  transition: 0.4s;
+}
+.block8-nav-2:hover,
+.block8-nav-3:hover,
+.block8-nav-4:hover {
+  background: #47b2e4;
+  color: #fff;
 }
 #block8-nav-images {
   margin-top: 30px;
