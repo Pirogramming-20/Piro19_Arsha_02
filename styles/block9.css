@@ -21,6 +21,11 @@
   border-radius: 7px;
   transition: 0.5s;
 }
+@media screen and (max-width: 992px) {
+  .block9-teambox-teamone {
+    flex-basis: 98%;
+  }
+}
 .block9-teambox-teamone:hover {
   transform: translateY(-15px);
 }
@@ -39,6 +44,12 @@ block9-teambox-teamone-inf {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+.block9-teambox-teamone-inf-1 i,
+.block9-teambox-teamone-inf-2 i,
+.block9-teambox-teamone-inf-3 i,
+.block9-teambox-teamone-inf-4 i {
+  color: rgb(55, 81, 126);
 }
 .block9-teambox-teamone-inf-1 {
   font-weight: 700;
@@ -68,10 +79,4 @@ block9-teambox-teamone-inf {
   width: 32px;
   height: 32px;
   background: #eff2f8;
-}
-.fa-brands fa-twitter,
-.fa-brands fa-facebook {
-  color: #37517e;
-  font-size: 16px;
-  margin: 0 2px;
 }
