@@ -254,31 +254,31 @@
   transition: 0.4s;
 }
 
-.block8-container:has(#block-button2:target) #block8-nav-images {
+.block8-container:has(#block8-button2:target) #block8-nav-images {
   height: 648.59px;
 }
-.block8-container:has(#block-button2:target) #block8-img-2 {
+.block8-container:has(#block8-button2:target) #block8-img-2 {
   transform: scale(0);
 }
-.block8-container:has(#block-button2:target) #block8-img-3 {
+.block8-container:has(#block8-button2:target) #block8-img-3 {
   transform: translateX(-428px);
 }
-.block8-container:has(#block-button2:target) #block8-img-4 {
+.block8-container:has(#block8-button2:target) #block8-img-4 {
   transform: scale(0);
 }
-.block8-container:has(#block-button2:target) #block8-img-5 {
+.block8-container:has(#block8-button2:target) #block8-img-5 {
   transform: scale(0);
 }
-.block8-container:has(#block-button2:target) #block8-img-6 {
+.block8-container:has(#block8-button2:target) #block8-img-6 {
   transform: translate(856px, -451.7px);
 }
-.block8-container:has(#block-button2:target) #block8-img-7 {
+.block8-container:has(#block8-button2:target) #block8-img-7 {
   transform: scale(0);
 }
-.block8-container:has(#block-button2:target) #block8-img-8 {
+.block8-container:has(#block8-button2:target) #block8-img-8 {
   transform: scale(0);
 }
-.block8-container:has(#block-button2:target) #block8-img-9 {
+.block8-container:has(#block8-button2:target) #block8-img-9 {
   transform: scale(0);
 }
 
@@ -442,95 +442,95 @@
   /*버튼 클릭시 효과*/
   /* -----Apps 버튼 클릭시 효과 ---------*/
 
-  .block8-container:has(.block8-button2:active) #block8-nav-images {
+  .block8-container:has(#block8-button2:target) #block8-nav-images {
     height: 648.59px;
   }
-  .block8-container:has(.block8-button2:active) #block8-img-2 {
+  .block8-container:has(#block8-button2:target) #block8-img-2 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button2:active) #block8-img-3 {
+  .block8-container:has(#block8-button2:target) #block8-img-3 {
     transform: translateX(-368px);
   }
-  .block8-container:has(.block8-button2:active) #block8-img-4 {
+  .block8-container:has(#block8-button2:target) #block8-img-4 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button2:active) #block8-img-5 {
+  .block8-container:has(#block8-button2:target) #block8-img-5 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button2:active) #block8-img-6 {
+  .block8-container:has(#block8-button2:target) #block8-img-6 {
     transform: translate(736px, -392.89px);
   }
-  .block8-container:has(.block8-button2:active) #block8-img-7 {
+  .block8-container:has(#block8-button2:target) #block8-img-7 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button2:active) #block8-img-8 {
+  .block8-container:has(#block8-button2:target) #block8-img-8 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button2:active) #block8-img-9 {
+  .block8-container:has(#block8-button2:target) #block8-img-9 {
     transform: scale(0);
   }
 
   /*------Cards 버튼 클릭시 효과-------*/
-  .block8-container:has(.block8-button3:active) #block8-nav-images {
+  .block8-container:has(#block8-button3:target) #block8-nav-images {
     height: 307.14px;
   }
-  .block8-container:has(.block8-button3:active) #block8-img-1 {
+  .block8-container:has(#block8-button3:target) #block8-img-1 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button3:active) #block8-img-2 {
+  .block8-container:has(#block8-button3:target) #block8-img-2 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button3:active) #block8-img-3 {
+  .block8-container:has(#block8-button3:target) #block8-img-3 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button3:active) #block8-img-4 {
+  .block8-container:has(#block8-button3:target) #block8-img-4 {
     transform: translate(-736px, -230.25px);
   }
-  .block8-container:has(.block8-button3:active) #block8-img-5 {
+  .block8-container:has(#block8-button3:target) #block8-img-5 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button3:active) #block8-img-6 {
+  .block8-container:has(#block8-button3:target) #block8-img-6 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button3:active) #block8-img-7 {
+  .block8-container:has(#block8-button3:target) #block8-img-7 {
     transform: translate(-368px, -495.64px);
   }
-  .block8-container:has(.block8-button3:active) #block8-img-8 {
+  .block8-container:has(#block8-button3:target) #block8-img-8 {
     transform: translateY(-756.72px);
   }
-  .block8-container:has(.block8-button3:active) #block8-img-9 {
+  .block8-container:has(#block8-button3:target) #block8-img-9 {
     transform: scale(0);
   }
 
   /*------Web 버튼 클릭시 효과-------*/
-  .block8-container:has(.block8-button4:active) #block8-nav-images {
+  .block8-container:has(#block8-button4:target) #block8-nav-images {
     height: 651.84px;
   }
-  .block8-container:has(.block8-button4:active) #block8-img-1 {
+  .block8-container:has(#block8-button4:target) #block8-img-1 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button4:active) #block8-img-2 {
+  .block8-container:has(#block8-button4:target) #block8-img-2 {
     transform: translateX(-368px);
   }
-  .block8-container:has(.block8-button4:active) #block8-img-3 {
+  .block8-container:has(#block8-button4:target) #block8-img-3 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button4:active) #block8-img-4 {
+  .block8-container:has(#block8-button4:target) #block8-img-4 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button4:active) #block8-img-5 {
+  .block8-container:has(#block8-button4:target) #block8-img-5 {
     transform: translateY(-268.69px);
   }
-  .block8-container:has(.block8-button4:active) #block8-img-6 {
+  .block8-container:has(#block8-button4:target) #block8-img-6 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button4:active) #block8-img-7 {
+  .block8-container:has(#block8-button4:target) #block8-img-7 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button4:active) #block8-img-8 {
+  .block8-container:has(#block8-button4:target) #block8-img-8 {
     transform: scale(0);
   }
-  .block8-container:has(.block8-button4:active) #block8-img-9 {
+  .block8-container:has(#block8-button4:target) #block8-img-9 {
     transform: translate(368px, -830.85px);
   }
 }
