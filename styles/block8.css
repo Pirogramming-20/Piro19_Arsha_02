@@ -234,6 +234,10 @@
 
 /*버튼 클릭시 효과*/
 /* -----Apps 버튼 클릭시 효과 ---------*/
+
+.block8-container:has(.block8-button2:active) #block8-nav-images {
+  height: 648.59px;
+}
 .block8-container:has(.block8-button2:active) #block8-img-2 {
   transform: scale(0);
 }
@@ -260,6 +264,9 @@
 }
 
 /*------Cards 버튼 클릭시 효과-------*/
+.block8-container:has(.block8-button3:active) #block8-nav-images {
+  height: 307.14px;
+}
 .block8-container:has(.block8-button3:active) #block8-img-1 {
   transform: scale(0);
 }
@@ -289,6 +296,9 @@
 }
 
 /*------Web 버튼 클릭시 효과-------*/
+.block8-container:has(.block8-button4:active) #block8-nav-images {
+  height: 651.84px;
+}
 .block8-container:has(.block8-button4:active) #block8-img-1 {
   transform: scale(0);
 }
