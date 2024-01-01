@@ -1,0 +1,47 @@
+#block7_section {
+    height: 20vh;
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../images/cta-bg.jpg") fixed center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block7_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 1400px;
+}
+.block7_row1 {
+    padding: 0 16px;
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+.block7_row1 h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.block7_row2 {
+    padding-left: 0 12px;
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.block7_row2 a {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+.block7_row2 a:hover {
+    background-color: #47b2e4;
+    border: none;
+}
