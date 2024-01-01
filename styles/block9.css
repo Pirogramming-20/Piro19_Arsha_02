@@ -33,12 +33,13 @@
   width: 300px;
   display: flex;
   margin-left: 40px;
+  margin-right: 30px;
   justify-content: flex-start;
   align-items: center;
 }
 .block9-teambox-teamone-image > img {
   border-radius: 50%;
-  width: 60%;
+  width: 100%;
 }
 block9-teambox-teamone-inf {
   display: flex;
