@@ -1,3 +1,6 @@
+.min-width {
+  width: min(100%, 1400px);
+}
 #block6 {
   display: flex;
   padding: 40px 75px 40px 75px;
