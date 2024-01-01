@@ -4,15 +4,17 @@
   overflow: hidden;
   width: 100%;
 }
-
+/* 
 .block4-main {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+} */
+.block4-main {
+  margin: 0 70px;
 }
-
 /* block4-left*/
 /* ---------block4-left-------------*/
 /* ------------------block4-left-top--------------------*/
@@ -47,9 +49,11 @@
   color: #848484;
   line-height: 1.5;
 }
-
+a.collasped .icon-show {
+  display: inline-block;
+}
 /* ------------------block4-left-bottom--------------------*/
-.block4-left-bottom {
+/* .block4-left-bottom {
   padding: 0 100px 60px 110px;
 }
 
@@ -168,8 +172,75 @@
   margin-bottom: 0;
   color: #444444;
   transition: 0.2s;
+} */
+.block4-left-bottom span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.block4-left-bottom label {
+  color: #343a40;
+}
+.block4-left-bottom i {
+  position: relative;
+}
+.block4-left-bottom li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.block4-left-bottom li i {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.block4-left-bottom li:hover {
+  a {
+    color: #47b2e4;
+  }
+}
+.block4-left-bottom .icon-close {
+  display: none;
+}
+.block4-left-bottom li #list-1, #list-2, #list-3 {
+  display: none;
+  margin-top: 10px;
+  margin-left: 30px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.block4-left-bottom label:hover{
+  color: #47b2e4;
+  cursor: pointer;
+}
+#toggle-1:checked + label .icon-show,
+#toggle-2:checked + label .icon-show,
+#toggle-3:checked + label .icon-show {
+  display: none;
 }
 
+#toggle-1:checked + label .icon-close,
+#toggle-2:checked + label .icon-close,
+#toggle-3:checked + label .icon-close {
+  display: inline-block; /* 또는 필요한 스타일로 변경 */
+}
+
+#toggle-1:checked + label + #list-1,
+#toggle-2:checked + label + #list-2,
+#toggle-3:checked + label + #list-3 {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; 
+}
+#toggle-1:checked + label,
+#toggle-2:checked + label,
+#toggle-3:checked + label {
+  color: #47b2e4;
+}
 /* block4-right*/
 .block4-right {
   flex: 1;
