@@ -1,9 +1,11 @@
 .min_width {
     width: min(100%, 1400px);
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .block3-section{
     padding: 60px 73px;
+    display: flex;
+    justify-content: center;
 }
 .block3-title{
     text-align: center;
