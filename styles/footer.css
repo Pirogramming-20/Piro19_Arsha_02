@@ -24,7 +24,6 @@ footer-strong {
 .footer-Boot {
   color: #47b2e4 !important;
 }
-
 .footer-up-button {
   width: 40px;
   height: 40px;
@@ -39,4 +38,8 @@ footer-strong {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.4s;
+}
+.footer-up-button:hover{
+  background-color: #6bc1e9;;
 }
