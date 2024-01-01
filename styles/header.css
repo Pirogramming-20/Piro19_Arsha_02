@@ -104,13 +104,14 @@ header {
   display: flex;
   gap: 5px;
   align-items: center;
+  padding: 10px 0px;
 }
 .drop-down,
 .drop-down-right {
   display: none;
   position: absolute;
   margin: 0;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 0px;
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
@@ -119,27 +120,41 @@ header {
   background: #fff;
   border-radius: 4px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  width: 185px;
+  height: 200px;
 }
 .drop-down {
-  top: 38px;
+  top: 45px;
   left: 350px;
 }
 .drop-down a:hover{
   color: #47b2e4;
   transition: 0.3s;
 }
+.to-drop-down-right:hover {
+  color: #47b2e4;
+  transition: 0.3s;
+}
 .drop-down-right {
   width: 180px;
   top: 40px;
-  right: 160px;
+  right: 185px;
 }
 .drop-down li,
 .drop-down-right li {
-  padding: 10px 20px 10px 0;
+  padding: 10px 20px 10px 20px;
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
   color: #0c3c53;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.to-drop-down-right{
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 10px 0px 10px 20px !important;
 }
 .header-down:hover ~ .drop-down,
 .drop-down:hover {
@@ -149,7 +164,4 @@ header {
 .drop-down-right:hover {
   display: block;
 }
-.to-drop-down-right{
-  display: flex;
-  justify-content: space-between;
-}
+
