@@ -1,0 +1,22 @@
+footer{
+    background: #37517e;
+    padding: 30px 73px;
+    display:flex;
+    justify-content: space-between;
+}
+.footer-left{
+    font-size: 14px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+footer-strong{
+    font-weight: bolder;
+}
+.footer-right{
+    font-size:13px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.footer-Boot{
+    color: #47b2e4 !important;
+}
