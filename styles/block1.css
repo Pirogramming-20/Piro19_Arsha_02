@@ -49,14 +49,23 @@
     background: #47b2e4;
     text-decoration-line: none;
 }
-.block1_href a:nth-child(2) {
+.block1_href_watch {
     color: #fff;
     font-size: 20px;
-    padding-left: 50px;
     text-decoration-line: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 40px;
+    margin-top: 9px;
+}
+.block1_href i::before{
+    display: flex;
+    font-size: 32px;
+    margin-right: 5px;
+}
+.block1_href_watch:hover i::before{
+    color: #73c5eb;
 }
 .block1_container_img img {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
