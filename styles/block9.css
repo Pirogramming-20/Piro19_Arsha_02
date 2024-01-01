@@ -12,10 +12,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  position: relative;
 }
-
-
 .block9-teambox-teamone {
   display: flex;
   width: 45%;
@@ -33,15 +30,16 @@
   transform: translateY(-15px);
 }
 .block9-teambox-teamone-image {
-  width: 400px;
+  width: 250px;
   display: flex;
-  margin: 0 0 0 40px;
+  margin-left: 40px;
+  margin-right: 30px;
   justify-content: flex-start;
   align-items: center;
 }
 .block9-teambox-teamone-image > img {
   border-radius: 50%;
-  width: 60%;
+  width: 100%;
 }
 block9-teambox-teamone-inf {
   display: flex;
