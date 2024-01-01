@@ -1,0 +1,236 @@
+#block4 {
+  background-color: #f3f5fa;
+  padding: 60px 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.block4-main {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+/* block4-left*/
+/* ---------block4-left-------------*/
+/* ------------------block4-left-top--------------------*/
+.block4-left {
+  flex: 1.35;
+
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.block4-left-top {
+  padding: 60px 100px 0 110px;
+}
+.block4-left-top-header {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+  margin: 0 0 8px;
+}
+
+.block4-left-top-header .block4-bold {
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+.block4-left-top div:last-of-type > p {
+  margin: 0 0 16px;
+  font-size: 15px;
+  color: #848484;
+  line-height: 1.5;
+}
+
+/* ------------------block4-left-bottom--------------------*/
+.block4-left-bottom {
+  padding: 0 100px 60px 110px;
+}
+
+.block4-left-bottom > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.block4-left-bottom > ul li {
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  height: 65px;
+  transition: 0.3s;
+
+  padding: 20px 20px 0;
+  border-bottom: 10px solid white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.block4-left-bottom > ul li:nth-of-type(2),
+.block4-left-bottom > ul li:nth-of-type(3) {
+  margin-top: 16px;
+}
+
+.block4-bottom-box-header {
+  padding: right-30px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.block4-bottom-box-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block4-bottom-box-button > div {
+  display: flex;
+  align-items: center;
+}
+
+.block4-bottom-box-button > div > span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.block4-bottom-box-button > div > span:last-of-type {
+  font-size: 16px;
+  color: #343a40;
+}
+
+.block4-bottom-box-button > aside {
+  width: 24px;
+  height: 24px;
+}
+
+#block4-bottom-box-header1:has(input:checked) > div span:last-of-type,
+#block4-bottom-box-header2:has(input:checked) > div span:last-of-type,
+#block4-bottom-box-header3:has(input:checked) > div span:last-of-type {
+  color: #73c5eb;
+}
+#block4-bottom-box-header1:has(input:checked) > aside,
+#block4-bottom-box-header2:has(input:checked) > aside,
+#block4-bottom-box-header3:has(input:checked) > aside {
+  transform: rotate(180deg);
+}
+
+.block4-white-box1:has(input:checked) {
+  height: 123px;
+}
+
+.block4-white-box1:has(input:checked) ~ li {
+  height: 65px;
+}
+
+.block4-white-box2:has(input:checked) {
+  height: 140px;
+}
+
+.block4-white-box2:has(input:checked) ~ li {
+  height: 65px;
+}
+
+.block4-white-box3:has(input:checked) {
+  height: 150px;
+}
+
+.block4-white-box3:has(input:checked) ~ li {
+  height: 65px;
+}
+
+#block4-more-info {
+  display: none;
+  width: 100%;
+}
+
+#block4-more-info2 {
+  display: none;
+  width: 100%;
+}
+
+#block4-more-info3 {
+  display: none;
+  width: 100%;
+}
+
+.block4-bottom-box-bottom {
+  padding: 10px 0 0;
+  margin-bottom: 0;
+  color: #444444;
+  transition: 0.2s;
+}
+
+/* block4-right*/
+.block4-right {
+  flex: 1;
+
+  width: 100%;
+  height: auto;
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.block4-right-container {
+  width: min(100%, 680px);
+
+  height: max(448.3px, 100%);
+  background-image: url(../images/why-us.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (max-width: 575px) {
+  .block4-right-container,
+  .block4-right {
+    height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .block4-right,
+  .block4-right-container {
+    width: 100%;
+    height: 400px;
+  }
+
+  .block4-left {
+    width: 100%;
+    height: 451.59px;
+  }
+
+  .block4-left-top {
+    padding: 0px 12px;
+  }
+
+  .block4-left-bottom {
+    padding: 0px 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .block4-main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+  }
+}
+
+/*white box 반응형 작업*/
+@media screen and (min-width: 724px) {
+  .block4-white-box1:has(input:checked) {
+    height: 100px;
+  }
+}
