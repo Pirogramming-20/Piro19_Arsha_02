@@ -16,12 +16,10 @@ header {
   align-items: center;
   height: 32px;
   font-weight: 700;
-<<<<<<< HEAD
-=======
   position: sticky;
   top: 0;
   z-index: 100;
->>>>>>> 19193f77b07640410a744b55e858b5847cac4aba
+
 }
 
 #header-left {
@@ -146,4 +144,7 @@ header {
 .drop-down > .to-drop-down-right:hover ~ .drop-down-right,
 .drop-down-right:hover {
   display: block;
+}
+.drop-down li:hover {
+  color: #47b2e4;
 }
