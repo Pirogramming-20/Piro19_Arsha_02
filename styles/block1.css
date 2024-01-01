@@ -49,6 +49,10 @@
     background: #47b2e4;
     text-decoration-line: none;
 }
+.block1_href a:nth-child(1):hover {
+    background-color: #209dd8;
+    transition: 0.5s;
+}
 .block1_href_watch {
     color: #fff;
     font-size: 20px;
@@ -66,6 +70,7 @@
 }
 .block1_href_watch:hover i::before{
     color: #73c5eb;
+    transition: 0.5s;
 }
 .block1_container_img img {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;

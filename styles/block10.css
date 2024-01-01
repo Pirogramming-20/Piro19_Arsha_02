@@ -104,6 +104,10 @@ h3, h4 {
     background: #47b2e4;
     color: #fff;
 }
+#business a:hover{
+    background-color: #23a3df;
+    transition: 0.5s;;
+}
 .block10_pricing_feature {
     position: relative;
     margin: 50px 20px;
@@ -142,7 +146,8 @@ h3, h4 {
     left: 10px;
 }
 .block10_pricing_feature a:hover {
-    background: #23a3df;
+    background-color: #23a3df;
+    transition: 0.5s;;
     color: white;
 }
 .block10_pricing_feature img {

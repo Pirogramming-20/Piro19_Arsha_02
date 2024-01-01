@@ -44,4 +44,5 @@
 .block7_row2 a:hover {
     background-color: #47b2e4;
     border: none;
+    transition: 0.8s;
 }
