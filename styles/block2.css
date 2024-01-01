@@ -24,11 +24,3 @@
     filter: none;
     transform: scale(1.1);
 }
-
-@media (max-width: 991px) {
-    #block2_section div{
-        width: 33.33333333%;
-        flex: 0 0 auto;
-
-    }
-}

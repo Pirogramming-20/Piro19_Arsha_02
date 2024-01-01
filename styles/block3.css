@@ -66,6 +66,9 @@
     width: 20px;
     height: auto;
 }
+.blocke-double-check:before{
+    content: "\eb79";
+}
 .block3-container-right{
     flex-shrink: 0;
     width: 50%;
