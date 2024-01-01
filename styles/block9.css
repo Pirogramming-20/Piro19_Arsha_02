@@ -159,4 +159,13 @@
   width: 32px;
   height: 32px;
   background: #eff2f8;
+  transition: ease-in-out 0.3s;
+}
+.block9-teambox-teamone-inf-4 i{
+  transition: ease-in-out 0.3s;
+}
+.block9-teambox-teamone-inf-4 a:hover,
+.block9-teambox-teamone-inf-4 a:hover i {
+  color: white;
+  background-color: #73c5eb;
 }
